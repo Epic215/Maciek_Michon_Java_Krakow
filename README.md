@@ -8,11 +8,11 @@ This application parses two JSON files to optimize the payment method for each o
 ## How to run project
 **1. Clone the repository:**
 ```bash
-git clone 
+git clone https://github.com/Epic215/Maciek_Michon_Java_Krakow.git
 ```
 **2. Move to directory:**
 ```bash
-cd 
+cd Maciek_Michon_Java_Krakow
 ```
 **3. Run command:**
 ```bash
@@ -21,4 +21,9 @@ mvn clean package
 **4. Run command:**
 ```bash
 java -jar target/app.jar src/main/resources/orders.json src/main/resources/paymentmethods.json
+```
+### Tests
+To run test use command:
+```bash
+mvn test
 ```
