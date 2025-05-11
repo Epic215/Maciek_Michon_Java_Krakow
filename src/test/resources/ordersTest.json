@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ORDERTEST1",
+    "value": "70.00",
+    "promotions": [
+      "test", "test2"
+    ]
+  },
+  {
+    "id": "ORDERTEST2",
+    "value": "50.00"
+  }
+
+]
